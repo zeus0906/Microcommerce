@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="mcommerce:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mcommerce_ear_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="mcommerce:war exploded" />
+      </element>
+      <element id="javaee-facet-resources" facet="mcommerce/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
